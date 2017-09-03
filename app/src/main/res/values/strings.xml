@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Custom TextView</string>
+    <string name="str_en">A quick brown fox jumps over a lazy dog.</string>
+    <string name="str_bn">আমার সোনার বাংলা, আমি তোমায় ভালবাসি</string>
+    <string name="fontKalpurush">kalpurush.ttf</string>
+    <string name="fontBSH">BenSenHandwriting.ttf</string>
+    <string name="fontSiyamrupali">Siyamrupali.ttf</string>
+    <string name="fontSolaimanLipi">SolaimanLipi.ttf</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context="com.salmanwahed.customtextview.MainActivity">
+
+
+    <com.salmanwahed.customtextview.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_en"
+        android:textSize="16sp"
+        app:textAllCaps="true"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"/>
+
+    <com.salmanwahed.customtextview.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_bn"
+        android:textSize="16sp"
+        app:textAllCaps="true"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"/>
+
+    <com.salmanwahed.customtextview.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_bn"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        app:fontName="@string/fontBSH"
+        android:layout_gravity="center"/>
+
+    <com.salmanwahed.customtextview.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_bn"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        app:fontName="@string/fontKalpurush"
+        android:layout_gravity="center"/>
+
+    <com.salmanwahed.customtextview.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_bn"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        app:fontName="@string/fontSiyamrupali"
+        android:layout_gravity="center"/>
+
+    <com.salmanwahed.customtextview.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_bn"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        app:fontName="@string/fontSolaimanLipi"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
